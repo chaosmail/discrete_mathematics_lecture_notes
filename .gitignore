@@ -1,4 +1,4 @@
-#ignore editor-files
+# ignore editor-files
 *.bak
 *.swp
 *.swo
@@ -6,7 +6,7 @@
 *.backup
 *.kilepr
 
-#ignore latex build-files
+# ignore latex build-files
 *.aux
 *.log
 *.nav
@@ -22,7 +22,7 @@
 *.fls
 *.fdb*
 
-#ignore pdf-files
+# ignore pdf-files
 *.pdf
 
 # ignore dolphin-directory-file

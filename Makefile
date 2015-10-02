@@ -3,8 +3,8 @@ LATEXMK_INSTALLED := $(shell command -v latexmk 2>/dev/null)
 
 DATE_STRING=$(shell date +%Y%m%d)
 
-MAIN_TEX = main
-DOCUMENT = VO_Discrete_Mathematics_2013WS
+MAIN_TEX=lecture_notes_A4
+DOCUMENT=VO_Discrete_Mathematics_2013WS
 all: $(MAIN_TEX).tex
 ifdef RUBBER_INSTALLED
 	rubber -d $<
